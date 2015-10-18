@@ -10,7 +10,7 @@ module.exports = React.createClass({
 	},
 	render: function() {
 		return <Link
-			to={"images/" } this.props.id}
+			to={"images/" + this.props.id}
 			className="image-preview"
 			onMouseEnter={this.handleMouseEnter}
 			onMouseLeave={this.handleMouseLeave}

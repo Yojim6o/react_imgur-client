@@ -6,6 +6,7 @@ var Route = ReactRouter.Route;
 
 var Main = require('./components/main');
 var Topic = require('./components/topic');
+var ImageDetail = require('./components/image-detail');
 
 module.exports = (
 	<Router history={new HashHistory}>

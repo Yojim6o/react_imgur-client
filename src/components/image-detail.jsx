@@ -13,7 +13,7 @@ module.exports = React.createClass({
 	getInitialState: function() {
 		return {
 			image: null,
-			comment: null,\
+			comment: null,
 		}
 	},
 	componentWillMount: function() {
